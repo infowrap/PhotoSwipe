@@ -1,0 +1,19 @@
+{
+  "name": "infowrap-photoswipe",
+  "version": "0.0.0",
+  "main": "release/3.0.5.1/code.photoswipe.jquery-3.0.5.1.min.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src",
+    "tools",
+    "build.*",
+    "release/3.0.5.1/examples",
+    "release/3.0.5.1/lib",
+    "release/3.0.5.1/noutil",
+    "release/3.0.5.1/*.log"
+  ]
+}
