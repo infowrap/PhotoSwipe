@@ -2371,11 +2371,11 @@
 			var i, j, childEl;
 			for (i=0, j=el.childNodes.length; i<j; i++){
 				childEl = el.childNodes[i];
-				if (el.childNodes[i].nodeName === 'IMG'){
+				if (childEl.nodeName === 'IMG'){
 					return Util.DOM.getAttribute(childEl, 'alt');
-				} else if (el.childNodes[i].nodeName === 'DIV'){
+				} else if (childEl.nodeName === 'DIV'){
 					// Infowrap CUSTOM
-					return Util.DOM.getData(el, 'toolbar-caption');
+					return Util.DOM.getData(childEl, 'toolbar-caption');
 					// END Infowrap CUSTOM
 				}
 			}
